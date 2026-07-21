@@ -1,18 +1,25 @@
-# Takeshixx Tap
+# Homebrew tap for deen
 
-## How do I install these formulae?
+This tap distributes the command-line interface for
+[deen](https://github.com/takeshixx/go-deen), a local tool for encoding,
+decoding, hashing, compressing, formatting, and inspecting data.
 
-`brew install takeshixx/tap/<formula>`
+## Install
 
-Or `brew tap takeshixx/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "takeshixx/tap"
-brew "<formula>"
+```sh
+brew install takeshixx/tap/deen
 ```
 
-## Documentation
+The fully qualified formula name lets Homebrew trust only this formula instead
+of every current and future item in the tap.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## Upgrade or uninstall
+
+```sh
+brew upgrade takeshixx/tap/deen
+brew uninstall deen
+```
+
+See the [deen documentation](https://deen.adversec.com) for usage and the
+[GitHub releases](https://github.com/takeshixx/go-deen/releases) for release
+notes and direct downloads.
